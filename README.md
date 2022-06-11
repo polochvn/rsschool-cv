@@ -1,2 +1,2 @@
 https://polochvn.github.io/rsschool-cv/cv
-https://polochvn.github.io/rsschool-cv/
+ghttps://polochvn.github.io/rsschool-cv/
