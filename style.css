@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Roboto-Bold;
+     src: url("assets/fonts/Roboto_Bold.ttf");
+   }
+   
+   body {
+      font-family: Roboto-Bold; 
+   }
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2;
+    color: #0a0808;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section-profile {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+  }
+
+  .section-profile img {
+    position : relative ; 
+    top: 5px;
+    left: 200px; 
+    border-radius: 135px;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .header {
+      background-color: rgb(162, 171, 185);
+      border-bottom: 10px solid rgb(12, 1, 1);
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: rgb(16, 15, 17);
+    font-size:medium;
+    text-decoration: none;
+    transition: .3s;
+  }
+
+  .nav-link:hover {
+      color:brown;
+  }
+
+  .nav-item {
+      cursor: pointer;
+  }
+
+  .nav-item:hover {
+    background-color: rgb(190, 100, 100);
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+  }
+
+  .section-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #085664;
+  }
+
+  .section {
+    padding: 0;
+    width: 50%;
+    line-height: 26px;
+  }
+  
+  .section h2 {
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #1c0a85;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+  .section h2 {
+    text-align: left;
+  }
+  
+  .main {
+    border-bottom: 10px solid rgb(12, 1, 1);
+  }
+
+  .footer {
+    color: aliceblue;
+    background-color: #1a124b;
+  }
+
+  .footer a {
+    color: aliceblue;
+    position: relative;
+    bottom: 50px;
+    left: 400px;
+  }
+
+  .footer img {
+    position: absolute;
+    right: 50px;
+    top: 1085px;
+  }
+
+  code {
+    color: #b88415;
+    background-color: #122a6e;
+  }
